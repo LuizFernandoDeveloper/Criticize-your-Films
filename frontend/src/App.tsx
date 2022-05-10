@@ -6,7 +6,7 @@ import {
 import Listing from 'pages/listing/Listing';
 import Form from 'pages/Form/Form';
 import NavBar from "components/navbar";
-
+import './index.css'
 function App() {
   return (
     <BrowserRouter>
