@@ -1,12 +1,23 @@
-import NavBar from "./components/navbar";
-
-
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom";
+import Listing from 'pages/listing/Listing';
+import Form from 'pages/Form/Form';
+import NavBar from "components/navbar";
 
 function App() {
   return (
-      
-     <NavBar/>
-
+    <BrowserRouter>
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<Listing />} />
+        <Route path="/form">
+          <Route path=":movieId" element={<Form />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
