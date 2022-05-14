@@ -1,9 +1,17 @@
 
 
+import axios from "axios";
 import MovieCards from "components/MovieCards";
 import Pagination from "components/pagination/";
 
 function Listing() {
+
+    //FORMA ERRADA PARA TESTE
+    axios.get('http://localhost:8080/movies/2')
+    .then( response => {
+
+        console.log(response.data);
+    });
 
     return (
         <>
