@@ -1,5 +1,6 @@
 
-# Projeto Critique seus Filmes
+# <a href="https://criticizeyourfilms.netlify.app" target="_blank">Projeto Critique seus Filmes</a>
+
 ## Tecnologias Utilizadas
 <br>
 <div style="display: inline_block">
@@ -32,7 +33,7 @@
      ![img](./imgReadme/critica.png)
      #
 
-
+- Veja o projeto : <a href="https://criticizeyourfilms.netlify.app" target="_blank">Criticize your Films </a>
 #
 
 ## 💻 Pré-requisitos
