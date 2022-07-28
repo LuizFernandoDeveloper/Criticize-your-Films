@@ -32,6 +32,7 @@
   -  Na pagina de avaliação devemos colocar nosso e-mail e um valor de 1 a 5
      ![img](./imgReadme/critica.png)
      #
+    - Projeto pode demorar para carregar serca de 5 minutos.
 
 - Veja o projeto : <a href="https://criticizeyourfilms.netlify.app" target="_blank">Criticize your Films </a>
 #
